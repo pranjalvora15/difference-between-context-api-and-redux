@@ -21,8 +21,8 @@ const App = () => {
                 </a>
             </p>
             <p>
-                What is difference between context API and redux or redux
-                toolkit?
+                <b>What is difference between context API and redux or redux
+                toolkit?</b>
             </p>
             <p style={{ paddingLeft: '10px' }}>
                 There are many differences between context API and redux or
