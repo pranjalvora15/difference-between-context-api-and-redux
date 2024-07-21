@@ -15,7 +15,10 @@ const App = () => {
                 &quot;Highlight updates when components render.&quot;. Also
                 console log are added in each component in case anyone want to
                 see which components are re-rendering. To see code click on
-                <a> code sandbox link</a> or <a>github repo link</a>
+                <a> code sandbox link</a> or{' '}
+                <a href="https://github.com/pranjalvora15/difference-between-context-api-and-redux">
+                    github repo link
+                </a>
             </p>
             <p>
                 What is difference between context API and redux or redux
