@@ -20,13 +20,16 @@ function ExampleLikeRedux() {
                 component shall not re-rendered if the component subscribed to
                 state is updated. Here you can see that Box A5 is little bit
                 down compared to all other boxes as I have added padding of 20px
-                to HOC component (to refer code click <a>here</a>), I added
-                padding because when you have checked the &quot;Highlight
-                updates when components render.&quot; in devtools, Box A5
-                appears to be re-rendered when you increase count of B5 and C5
-                but in case it is not, so to avoid confusion I have added
-                padding and console logs also to see the which components are
-                re-rendering when you update count.
+                to HOC component (to refer code click{' '}
+                <a href="https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm">
+                    here
+                </a>
+                ), I added padding because when you have checked the
+                &quot;Highlight updates when components render.&quot; in
+                devtools, Box A5 appears to be re-rendered when you increase
+                count of B5 and C5 but in case it is not, so to avoid confusion
+                I have added padding and console logs also to see the which
+                components are re-rendering when you update count.
             </p>
             <div className="container">
                 <BoxA />
