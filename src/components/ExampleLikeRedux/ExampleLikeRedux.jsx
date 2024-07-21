@@ -16,19 +16,23 @@ function ExampleLikeRedux() {
         >
             <h3>Example Like Redux</h3>
             <p>
-                In this example we have try to achieve what redux does i.e. a
-                component shall not re-rendered if the component subscribed to
-                state is updated. Here you can see that Box A5 is little bit
-                down compared to all other boxes as I have added padding of 20px
-                to HOC component (to refer code click{' '}
-                <a href="https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm" target='_blank'>
+                In this example we have tried to achieve what redux does(please
+                note: this is self-made solution so implementation in redux
+                might be different) i.e. a component shall not re-rendered if
+                the component subscribed to state is updated. Here you can see
+                that Box A5 is little bit down compared to all other boxes as I
+                have added padding of 20px to HOC component (to refer code click{' '}
+                <a
+                    href="https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm"
+                    target="_blank"
+                >
                     here
                 </a>
-                ), I added padding because when you have checked the
+                ),padding is added because when you have checked the
                 &quot;Highlight updates when components render.&quot; in
-                devtools, Box A5 appears to be re-rendered when you increase
+                DevTools, Box A5 appears to be re-rendered when you increase
                 count of B5 and C5 but in case it is not, so to avoid confusion
-                I have added padding and console logs also to see the which
+                padding and console logs are added to see the which
                 components are re-rendering when you update count.
             </p>
             <div className="container">
