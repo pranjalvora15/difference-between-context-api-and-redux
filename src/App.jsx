@@ -15,14 +15,26 @@ const App = () => {
                 &quot;Highlight updates when components render.&quot;. Also
                 console log are added in each component in case anyone want to
                 see which components are re-rendering. To see code click on
-                <a href='https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm' target='_blank'> code sandbox link</a> or{' '}
-                <a href="https://github.com/pranjalvora15/difference-between-context-api-and-redux" target='_blank'>
+                <a
+                    href="https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm"
+                    target="_blank"
+                >
+                    {' '}
+                    code sandbox link
+                </a>{' '}
+                or{' '}
+                <a
+                    href="https://github.com/pranjalvora15/difference-between-context-api-and-redux"
+                    target="_blank"
+                >
                     github repo link
-                </a>
+                </a>.
             </p>
             <p>
-                <b>What is difference between context API and redux or redux
-                toolkit?</b>
+                <b>
+                    What is difference between context API and redux or redux
+                    toolkit?
+                </b>
             </p>
             <p style={{ paddingLeft: '10px' }}>
                 There are many differences between context API and redux or
@@ -33,7 +45,13 @@ const App = () => {
                 where as on other side when we use redux then only the component
                 which is subscribed to particular state is re-rendered on the
                 change of that state rest of the all components does not
-                re-rendered.
+                re-rendered.{' '}
+                <b>
+                    Click on each of the increment counter of each example and
+                    observe console tab or highlighted boxes if you check marked
+                    the &quot;Highlight updates when components render.&quot;
+                    option.
+                </b>
             </p>
             <ExampleByContext />
             <ExampleByReducerNContext />

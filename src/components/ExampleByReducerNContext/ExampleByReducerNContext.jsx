@@ -1,4 +1,4 @@
-import { useState, createContext, useReducer } from 'react';
+import { createContext, useReducer } from 'react';
 
 import BoxA from './BoxA2';
 import BoxB from './BoxB2';
@@ -22,6 +22,7 @@ function ExampleByReducerNContext() {
     return (
         <CounterContext.Provider value={state}>
             <h3>2. Example by Reducer and Context</h3>
+            <p>You will observe similar behaviour like example 1 </p>
             <div className="container">
                 <BoxA dispatch={dispatch} />
                 <BoxB dispatch={dispatch} />
