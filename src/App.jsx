@@ -1,10 +1,9 @@
-import React from 'react';
 import ExampleByContext from './components/ExampleByContext/ExampleByContext';
 import './App.css';
 import ExampleByRedux from './components/ExampleByRedux/ExampleByRedux';
 import ExampleByContextBSeperated from './components/ExampleByContextBSeperated/ExampleByContextBSeperated';
 import ExampleByReducerNContext from './components/ExampleByReducerNContext/ExampleByReducerNContext';
-
+import ExampleLikeRedux from './components/ExampleLikeRedux/ExampleLikeRedux';
 const App = () => {
     return (
         <div className="app">
@@ -13,7 +12,10 @@ const App = () => {
                 the react devtools from chrome browser, then open Components
                 section in the inspect(Command+Option+i or Ctrl+Shift+C or right
                 click &gt; inspect) and click on settings icon, then check the
-                &quot;Highlight updates when components render.&quot;
+                &quot;Highlight updates when components render.&quot;. Also
+                console log are added in each component in case anyone want to
+                see which components are re-rendering. To see code click on
+                <a> code sandbox link</a> or <a>github repo link</a>
             </p>
             <p>
                 What is difference between context API and redux or redux
@@ -31,9 +33,10 @@ const App = () => {
                 re-rendered.
             </p>
             <ExampleByContext />
+            <ExampleByReducerNContext />
             <ExampleByRedux />
             <ExampleByContextBSeperated />
-            <ExampleByReducerNContext />
+            <ExampleLikeRedux />
         </div>
     );
 };

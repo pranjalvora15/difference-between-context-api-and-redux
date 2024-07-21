@@ -1,8 +1,8 @@
 import { store } from './store';
 import { Provider } from 'react-redux';
-import BoxA from './BoxA';
-import BoxB from './BoxB';
-import BoxC from './BoxC';
+import BoxA from './BoxA3';
+import BoxB from './BoxB3';
+import BoxC from './BoxC3';
 const ExampleByRedux = () => {
     return (
         <Provider store={store}>

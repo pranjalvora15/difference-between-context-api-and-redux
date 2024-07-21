@@ -1,8 +1,8 @@
 import { useState, createContext, useReducer } from 'react';
 
-import BoxA from './BoxA';
-import BoxB from './BoxB';
-import BoxC from './BoxC';
+import BoxA from './BoxA1';
+import BoxB from './BoxB1';
+import BoxC from './BoxC1';
 
 export const CounterContext = createContext(null);
 

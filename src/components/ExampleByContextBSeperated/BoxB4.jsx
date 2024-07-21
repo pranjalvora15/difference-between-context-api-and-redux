@@ -1,15 +1,15 @@
 import { useContext } from 'react';
 import { CounterContextB } from './ParentBoxB';
 
-const BoxB = () => {
-    console.log('B is rendering');
+const BoxB4 = () => {
     const { countB, setCountB } = useContext(CounterContextB);
+    console.log('rendering B4');
     return (
         <div className="box">
             {countB}
-            <button onClick={() => setCountB(countB + 1)}>Increment B</button>
+            <button onClick={() => setCountB(countB + 1)}>Increment B4</button>
         </div>
     );
 };
 
-export default BoxB;
+export default BoxB4;
