@@ -6,7 +6,7 @@ import BoxC from './BoxC3';
 const ExampleByRedux = () => {
     return (
         <Provider store={store}>
-            <h3>Example by Redux toolkit</h3>
+            <h3>3. Example by Redux toolkit</h3>
             <div className="container">
                 <BoxA />
                 <BoxB />

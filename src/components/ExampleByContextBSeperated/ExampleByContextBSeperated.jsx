@@ -19,16 +19,27 @@ export const CounterContext = createContext(null);
 function ExampleByContextBSeperated() {
     // const [state, dispatch] = useReducer(reducer,initialState )
     const [countA, setCountA] = useState(0);
-    
+
     const [countC, setCountC] = useState(0);
     return (
         <CounterContext.Provider
             value={{ countA, countC, setCountA, setCountC }}
         >
-            <h3>Example where container has seperated context</h3>
+            <h3>4. Example where container has seperated context</h3>
+            <p>
+                To achieve redux like behaviour we have to build a whole new
+                different context for all the boxes. For showing demo I have
+                just created a different context for box B only. If you increase
+                count B4 you can observe only box B will get re-rendered,
+                increasing count B4 will not cause re-rendering of box A4 and
+                C4. But this approach is hard to follow so, you can consider
+                last example (example 5) where similar behaviour like redux is
+                achieved with the help of custom hook{' '}
+                <b>useSelector and higher order component</b>
+            </p>
             <div className="container">
                 <BoxA />
-                <ParentBoxB/>
+                <ParentBoxB />
                 <BoxC />
             </div>
         </CounterContext.Provider>

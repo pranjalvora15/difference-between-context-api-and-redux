@@ -14,7 +14,7 @@ function ExampleByContext() {
         <CounterContext.Provider
             value={{ countA, countB, countC, setCountA, setCountB, setCountC }}
         >
-            <h3>Example by context</h3>
+            <h3>1. Example by context</h3>
             <div className="container">
                 <BoxA />
                 <BoxB />

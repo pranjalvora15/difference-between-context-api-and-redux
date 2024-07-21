@@ -14,7 +14,7 @@ function ExampleLikeRedux() {
         <CounterContext.Provider
             value={{ countA, countB, countC, setCountA, setCountB, setCountC }}
         >
-            <h3>Example Like Redux</h3>
+            <h3>5. Example Like Redux</h3>
             <p>
                 In this example we have tried to achieve what redux does(please
                 note: this is self-made solution so implementation in redux

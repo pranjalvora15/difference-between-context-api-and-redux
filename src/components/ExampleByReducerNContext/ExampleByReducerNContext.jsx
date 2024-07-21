@@ -21,7 +21,7 @@ function ExampleByReducerNContext() {
     const [state, dispatch] = useReducer(reducer, initialState);
     return (
         <CounterContext.Provider value={state}>
-            <h3>Example by Reducer and Context</h3>
+            <h3>2. Example by Reducer and Context</h3>
             <div className="container">
                 <BoxA dispatch={dispatch} />
                 <BoxB dispatch={dispatch} />
