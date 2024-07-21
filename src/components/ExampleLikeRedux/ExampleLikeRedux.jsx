@@ -21,7 +21,7 @@ function ExampleLikeRedux() {
                 state is updated. Here you can see that Box A5 is little bit
                 down compared to all other boxes as I have added padding of 20px
                 to HOC component (to refer code click{' '}
-                <a href="https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm">
+                <a href="https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm" target='_blank'>
                     here
                 </a>
                 ), I added padding because when you have checked the

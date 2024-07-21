@@ -15,8 +15,8 @@ const App = () => {
                 &quot;Highlight updates when components render.&quot;. Also
                 console log are added in each component in case anyone want to
                 see which components are re-rendering. To see code click on
-                <a href='https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm'> code sandbox link</a> or{' '}
-                <a href="https://github.com/pranjalvora15/difference-between-context-api-and-redux">
+                <a href='https://codesandbox.io/p/devbox/difference-between-context-api-and-redux-toolkit-vs5vmm' target='_blank'> code sandbox link</a> or{' '}
+                <a href="https://github.com/pranjalvora15/difference-between-context-api-and-redux" target='_blank'>
                     github repo link
                 </a>
             </p>
